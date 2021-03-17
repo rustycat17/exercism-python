@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./two-fer
+    working-directory: ./pangram
 
 jobs:
   build:
