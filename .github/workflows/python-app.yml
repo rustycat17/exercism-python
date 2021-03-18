@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./pangram
+    working-directory: ./robot-name
 
 jobs:
   build:
