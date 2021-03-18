@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./robot-name
+    working-directory: ./protein-translation
 
 jobs:
   build:
