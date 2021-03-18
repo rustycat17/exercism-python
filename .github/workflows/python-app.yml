@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./protein-translation
+    working-directory: ./hangman
 
 jobs:
   build:
