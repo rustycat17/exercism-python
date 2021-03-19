@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./raindrops
+    working-directory: ./armstrong-numbers
 
 jobs:
   build:
