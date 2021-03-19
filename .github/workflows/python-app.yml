@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./armstrong-numbers
+    working-directory: ./perfect-numbers
 
 jobs:
   build:
