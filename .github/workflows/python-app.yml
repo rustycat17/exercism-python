@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./perfect-numbers
+    working-directory: ./high-scores
 
 jobs:
   build:
