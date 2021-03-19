@@ -7,11 +7,4 @@ def personal_best(scores):
 
 
 def personal_top_three(scores):
-    res = []
-    while len(res) < 3:
-        if len(scores) == 0:
-            break
-        res.append(max(scores))
-        scores.pop(scores.index(max(scores)))
-
-    return res
+    return sorted(scores)[::-1][:3]
