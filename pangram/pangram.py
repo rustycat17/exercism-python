@@ -1,10 +1,12 @@
 import string
 
+
 def is_pangram(sentence):
-    res = []
+    res = set()
     for letter in sentence.lower():
         if letter in string.ascii_lowercase:
-            res.append(letter)
+            res.add(letter)
+            if len(res) == 26:
+                return True
 
-    res = set(res)
-    return True if len(res) == 26 else False
+    return False
